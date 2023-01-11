@@ -1,5 +1,5 @@
 def fahr_to_celsius(temp_fahrenheit):
-    return (temp_fahrenheit - 32)/1.8
+    return float((temp_fahrenheit - 32)/1.8,2)
 
 def temp_classifier(temp_celsius):
     if temp_celsius<-2:
